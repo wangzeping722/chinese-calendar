@@ -97,6 +97,25 @@ func (ag *arrangement) generateHolidays() {
 	sort.Sort(ag.InLieuDayList)
 }
 
+func (ag *arrangement) Y2023() {
+	// http://www.gov.cn/zhengce/content/2022-12/08/content_5730844.htm
+	// 一、元旦：2022年1月1日至3日放假，共3天。
+	// 二、春节：1月31日至2月6日放假调休，共7天。1月29日（星期六）、1月30日（星期日）上班。
+	// 三、清明节：4月3日至5日放假调休，共3天。4月2日（星期六）上班。
+	// 四、劳动节：4月30日至5月4日放假调休，共5天。4月24日（星期日）、5月7日（星期六）上班。
+	// 五、端午节：6月3日至5日放假，共3天。
+	// 六、中秋节：9月10日至12日放假，共3天。
+	// 七、国庆节：10月1日至7日放假调休，共7天。10月8日（星期六）、10月9日（星期日）上班。
+	ag.yearAt(2023).
+		nyd().rest(1, 1).to(1, 2).
+		sf().rest(1, 21).to(1, 27).work(1, 28).to(1, 29).inLieu(1, 26).to(1, 27).
+		tsd().rest(4, 5).
+		ld().rest(4, 29).to(5, 3).work(4, 23).work(5, 6).inLieu(5, 2).to(5, 3).
+		dbf().rest(6, 22).to(6, 24).work(6, 25).inLieu(6, 23).
+		maf().rest(9, 29).
+		nd().rest(9, 30).to(10, 6).work(10, 7).to(10, 8).inLieu(10, 5).to(10, 6)
+}
+
 func (ag *arrangement) Y2022() {
 	// http://www.gov.cn/zhengce/content/2021-10/25/content_5644835.htm
 	// 一、元旦：2022年1月1日至3日放假，共3天。
