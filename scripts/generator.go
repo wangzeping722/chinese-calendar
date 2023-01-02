@@ -132,7 +132,8 @@ func (ag *arrangement) Y2022() {
 		ld().rest(4, 30).to(5, 4).work(4, 24).work(5, 7).inLieu(5, 3).to(5, 4).
 		dbf().rest(6, 3).to(6, 5).
 		maf().rest(9, 10).to(9, 12).
-		nd().rest(10, 1).to(10, 7).work(10, 8).work(10, 9).inLieu(10, 6).to(10, 7)
+		nd().rest(10, 1).to(10, 7).work(10, 8).work(10, 9).inLieu(10, 6).to(10, 7).
+		nyd().rest(12, 31)
 }
 
 func (ag *arrangement) Y2021() {

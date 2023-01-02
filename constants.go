@@ -11,7 +11,7 @@ import (
 var (
 	// 节假日定义
 	minDay = Date(2004, 1, 1)
-	maxDay = Date(2022, 10, 9)
+	maxDay = Date(2023, 10, 8)
 	// 节假日
 	holidays = map[time.Time]Holiday{
 		Date(2004, 1, 1):NewYearsDay,
@@ -507,6 +507,33 @@ var (
 		Date(2022, 10, 5):NationalDay,
 		Date(2022, 10, 6):NationalDay,
 		Date(2022, 10, 7):NationalDay,
+		Date(2022, 12, 31):NewYearsDay,
+		Date(2023, 1, 1):NewYearsDay,
+		Date(2023, 1, 2):NewYearsDay,
+		Date(2023, 1, 21):SpringFestival,
+		Date(2023, 1, 22):SpringFestival,
+		Date(2023, 1, 23):SpringFestival,
+		Date(2023, 1, 24):SpringFestival,
+		Date(2023, 1, 25):SpringFestival,
+		Date(2023, 1, 26):SpringFestival,
+		Date(2023, 1, 27):SpringFestival,
+		Date(2023, 4, 5):TombSweepingDay,
+		Date(2023, 4, 29):LabourDay,
+		Date(2023, 4, 30):LabourDay,
+		Date(2023, 5, 1):LabourDay,
+		Date(2023, 5, 2):LabourDay,
+		Date(2023, 5, 3):LabourDay,
+		Date(2023, 6, 22):DragonBoatFestival,
+		Date(2023, 6, 23):DragonBoatFestival,
+		Date(2023, 6, 24):DragonBoatFestival,
+		Date(2023, 9, 29):MidAutumnFestival,
+		Date(2023, 9, 30):NationalDay,
+		Date(2023, 10, 1):NationalDay,
+		Date(2023, 10, 2):NationalDay,
+		Date(2023, 10, 3):NationalDay,
+		Date(2023, 10, 4):NationalDay,
+		Date(2023, 10, 5):NationalDay,
+		Date(2023, 10, 6):NationalDay,
 		
 	}
 
@@ -636,6 +663,13 @@ var (
 		Date(2022, 5, 7):LabourDay,
 		Date(2022, 10, 8):NationalDay,
 		Date(2022, 10, 9):NationalDay,
+		Date(2023, 1, 28):SpringFestival,
+		Date(2023, 1, 29):SpringFestival,
+		Date(2023, 4, 23):LabourDay,
+		Date(2023, 5, 6):LabourDay,
+		Date(2023, 6, 25):DragonBoatFestival,
+		Date(2023, 10, 7):NationalDay,
+		Date(2023, 10, 8):NationalDay,
 		
 	}
 
@@ -765,6 +799,13 @@ var (
 		Date(2022, 5, 4):LabourDay,
 		Date(2022, 10, 6):NationalDay,
 		Date(2022, 10, 7):NationalDay,
+		Date(2023, 1, 26):SpringFestival,
+		Date(2023, 1, 27):SpringFestival,
+		Date(2023, 5, 2):LabourDay,
+		Date(2023, 5, 3):LabourDay,
+		Date(2023, 6, 23):DragonBoatFestival,
+		Date(2023, 10, 5):NationalDay,
+		Date(2023, 10, 6):NationalDay,
 		
 	}
 )
