@@ -11,7 +11,7 @@ import (
 var (
 	// 节假日定义
 	minDay = Date(2004, 1, 1)
-	maxDay = Date(2023, 10, 8)
+	maxDay = Date(2024, 10, 12)
 	// 节假日
 	holidays = map[time.Time]Holiday{
 		Date(2004, 1, 1):NewYearsDay,
@@ -534,6 +534,34 @@ var (
 		Date(2023, 10, 4):NationalDay,
 		Date(2023, 10, 5):NationalDay,
 		Date(2023, 10, 6):NationalDay,
+		Date(2024, 1, 1):NewYearsDay,
+		Date(2024, 2, 10):SpringFestival,
+		Date(2024, 2, 11):SpringFestival,
+		Date(2024, 2, 12):SpringFestival,
+		Date(2024, 2, 13):SpringFestival,
+		Date(2024, 2, 14):SpringFestival,
+		Date(2024, 2, 15):SpringFestival,
+		Date(2024, 2, 16):SpringFestival,
+		Date(2024, 2, 17):SpringFestival,
+		Date(2024, 4, 4):TombSweepingDay,
+		Date(2024, 4, 5):TombSweepingDay,
+		Date(2024, 4, 6):TombSweepingDay,
+		Date(2024, 5, 1):LabourDay,
+		Date(2024, 5, 2):LabourDay,
+		Date(2024, 5, 3):LabourDay,
+		Date(2024, 5, 4):LabourDay,
+		Date(2024, 5, 5):LabourDay,
+		Date(2024, 6, 10):DragonBoatFestival,
+		Date(2024, 9, 15):MidAutumnFestival,
+		Date(2024, 9, 16):MidAutumnFestival,
+		Date(2024, 9, 17):MidAutumnFestival,
+		Date(2024, 10, 1):NationalDay,
+		Date(2024, 10, 2):NationalDay,
+		Date(2024, 10, 3):NationalDay,
+		Date(2024, 10, 4):NationalDay,
+		Date(2024, 10, 5):NationalDay,
+		Date(2024, 10, 6):NationalDay,
+		Date(2024, 10, 7):NationalDay,
 		
 	}
 
@@ -670,6 +698,14 @@ var (
 		Date(2023, 6, 25):DragonBoatFestival,
 		Date(2023, 10, 7):NationalDay,
 		Date(2023, 10, 8):NationalDay,
+		Date(2024, 2, 4):SpringFestival,
+		Date(2024, 2, 18):SpringFestival,
+		Date(2024, 4, 7):TombSweepingDay,
+		Date(2024, 4, 28):LabourDay,
+		Date(2024, 5, 11):LabourDay,
+		Date(2024, 9, 14):MidAutumnFestival,
+		Date(2024, 9, 29):NationalDay,
+		Date(2024, 10, 12):NationalDay,
 		
 	}
 
@@ -806,6 +842,14 @@ var (
 		Date(2023, 6, 23):DragonBoatFestival,
 		Date(2023, 10, 5):NationalDay,
 		Date(2023, 10, 6):NationalDay,
+		Date(2024, 2, 15):SpringFestival,
+		Date(2024, 2, 16):SpringFestival,
+		Date(2024, 4, 5):TombSweepingDay,
+		Date(2024, 5, 2):LabourDay,
+		Date(2024, 5, 3):LabourDay,
+		Date(2024, 9, 17):MidAutumnFestival,
+		Date(2024, 10, 4):NationalDay,
+		Date(2024, 10, 7):NationalDay,
 		
 	}
 )
