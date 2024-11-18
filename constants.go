@@ -11,7 +11,7 @@ import (
 var (
 	// 节假日定义
 	minDay = Date(2004, 1, 1)
-	maxDay = Date(2024, 10, 12)
+	maxDay = Date(2025, 10, 11)
 	// 节假日
 	holidays = map[time.Time]Holiday{
 		Date(2004, 1, 1):NewYearsDay,
@@ -562,6 +562,34 @@ var (
 		Date(2024, 10, 5):NationalDay,
 		Date(2024, 10, 6):NationalDay,
 		Date(2024, 10, 7):NationalDay,
+		Date(2025, 1, 1):NewYearsDay,
+		Date(2025, 1, 28):SpringFestival,
+		Date(2025, 1, 29):SpringFestival,
+		Date(2025, 1, 30):SpringFestival,
+		Date(2025, 1, 31):SpringFestival,
+		Date(2025, 2, 1):SpringFestival,
+		Date(2025, 2, 2):SpringFestival,
+		Date(2025, 2, 3):SpringFestival,
+		Date(2025, 2, 4):SpringFestival,
+		Date(2025, 4, 4):TombSweepingDay,
+		Date(2025, 4, 5):TombSweepingDay,
+		Date(2025, 4, 6):TombSweepingDay,
+		Date(2025, 5, 1):LabourDay,
+		Date(2025, 5, 2):LabourDay,
+		Date(2025, 5, 3):LabourDay,
+		Date(2025, 5, 4):LabourDay,
+		Date(2025, 5, 5):LabourDay,
+		Date(2025, 5, 31):DragonBoatFestival,
+		Date(2025, 6, 1):DragonBoatFestival,
+		Date(2025, 6, 2):DragonBoatFestival,
+		Date(2025, 10, 1):NationalDay,
+		Date(2025, 10, 2):NationalDay,
+		Date(2025, 10, 3):NationalDay,
+		Date(2025, 10, 4):NationalDay,
+		Date(2025, 10, 5):NationalDay,
+		Date(2025, 10, 6):MidAutumnFestival,
+		Date(2025, 10, 7):NationalDay,
+		Date(2025, 10, 8):NationalDay,
 		
 	}
 
@@ -706,6 +734,11 @@ var (
 		Date(2024, 9, 14):MidAutumnFestival,
 		Date(2024, 9, 29):NationalDay,
 		Date(2024, 10, 12):NationalDay,
+		Date(2025, 1, 26):SpringFestival,
+		Date(2025, 2, 8):SpringFestival,
+		Date(2025, 4, 27):LabourDay,
+		Date(2025, 9, 28):NationalDay,
+		Date(2025, 10, 11):NationalDay,
 		
 	}
 
@@ -850,6 +883,11 @@ var (
 		Date(2024, 9, 17):MidAutumnFestival,
 		Date(2024, 10, 4):NationalDay,
 		Date(2024, 10, 7):NationalDay,
+		Date(2025, 2, 3):SpringFestival,
+		Date(2025, 2, 4):SpringFestival,
+		Date(2025, 5, 5):LabourDay,
+		Date(2025, 10, 7):NationalDay,
+		Date(2025, 10, 8):NationalDay,
 		
 	}
 )
