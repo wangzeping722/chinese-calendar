@@ -11,7 +11,7 @@ import (
 var (
 	// 节假日定义
 	minDay = Date(2004, 1, 1)
-	maxDay = Date(2025, 10, 11)
+	maxDay = Date(2026, 10, 10)
 	// 节假日
 	holidays = map[time.Time]Holiday{
 		Date(2004, 1, 1):NewYearsDay,
@@ -590,6 +590,39 @@ var (
 		Date(2025, 10, 6):MidAutumnFestival,
 		Date(2025, 10, 7):NationalDay,
 		Date(2025, 10, 8):NationalDay,
+		Date(2026, 1, 1):NewYearsDay,
+		Date(2026, 1, 2):NewYearsDay,
+		Date(2026, 1, 3):NewYearsDay,
+		Date(2026, 2, 15):SpringFestival,
+		Date(2026, 2, 16):SpringFestival,
+		Date(2026, 2, 17):SpringFestival,
+		Date(2026, 2, 18):SpringFestival,
+		Date(2026, 2, 19):SpringFestival,
+		Date(2026, 2, 20):SpringFestival,
+		Date(2026, 2, 21):SpringFestival,
+		Date(2026, 2, 22):SpringFestival,
+		Date(2026, 2, 23):SpringFestival,
+		Date(2026, 4, 4):TombSweepingDay,
+		Date(2026, 4, 5):TombSweepingDay,
+		Date(2026, 4, 6):TombSweepingDay,
+		Date(2026, 5, 1):LabourDay,
+		Date(2026, 5, 2):LabourDay,
+		Date(2026, 5, 3):LabourDay,
+		Date(2026, 5, 4):LabourDay,
+		Date(2026, 5, 5):LabourDay,
+		Date(2026, 6, 19):DragonBoatFestival,
+		Date(2026, 6, 20):DragonBoatFestival,
+		Date(2026, 6, 21):DragonBoatFestival,
+		Date(2026, 9, 25):MidAutumnFestival,
+		Date(2026, 9, 26):MidAutumnFestival,
+		Date(2026, 9, 27):MidAutumnFestival,
+		Date(2026, 10, 1):NationalDay,
+		Date(2026, 10, 2):NationalDay,
+		Date(2026, 10, 3):NationalDay,
+		Date(2026, 10, 4):NationalDay,
+		Date(2026, 10, 5):NationalDay,
+		Date(2026, 10, 6):NationalDay,
+		Date(2026, 10, 7):NationalDay,
 		
 	}
 
@@ -739,6 +772,12 @@ var (
 		Date(2025, 4, 27):LabourDay,
 		Date(2025, 9, 28):NationalDay,
 		Date(2025, 10, 11):NationalDay,
+		Date(2026, 1, 4):NewYearsDay,
+		Date(2026, 2, 14):SpringFestival,
+		Date(2026, 2, 28):SpringFestival,
+		Date(2026, 5, 9):LabourDay,
+		Date(2026, 9, 20):NationalDay,
+		Date(2026, 10, 10):NationalDay,
 		
 	}
 
@@ -888,6 +927,12 @@ var (
 		Date(2025, 5, 5):LabourDay,
 		Date(2025, 10, 7):NationalDay,
 		Date(2025, 10, 8):NationalDay,
+		Date(2026, 1, 2):NewYearsDay,
+		Date(2026, 2, 20):SpringFestival,
+		Date(2026, 2, 23):SpringFestival,
+		Date(2026, 5, 5):LabourDay,
+		Date(2026, 10, 6):NationalDay,
+		Date(2026, 10, 7):NationalDay,
 		
 	}
 )

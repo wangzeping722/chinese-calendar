@@ -12,6 +12,8 @@ func TestIsHoliday(t *testing.T) {
 		time.Date(2004, 1, 1, 0, 0, 0, 0, time.Local),
 		time.Date(2017, 5, 30, 0, 0, 0, 0, time.Local),
 		time.Date(2022, 10, 6, 0, 0, 0, 0, time.Local),
+		time.Date(2026, 1, 3, 0, 0, 0, 0, time.Local),
+		time.Date(2026, 2, 22, 0, 0, 0, 0, time.Local),
 	}
 	for _, date := range dates {
 		assert.Equal(t, true, IsHoliday(date))
@@ -24,6 +26,7 @@ func TestIsWorkDay(t *testing.T) {
 		time.Date(2004, 1, 5, 0, 0, 0, 0, time.Local),
 		time.Date(2021, 2, 25, 0, 0, 0, 0, time.Local),
 		time.Date(2022, 2, 25, 0, 0, 0, 0, time.Local),
+		time.Date(2026, 2, 24, 0, 0, 0, 0, time.Local),
 	}
 	for _, date := range dates {
 		assert.Equal(t, true, IsWorkday(date))
@@ -39,6 +42,7 @@ func TestGetHolidayDetail(t *testing.T) {
 		{time.Date(2004, 1, 1, 0, 0, 0, 0, time.Local), NewYearsDay},
 		{time.Date(2014, 4, 7, 0, 0, 0, 0, time.Local), TombSweepingDay},
 		{time.Date(2022, 9, 10, 0, 0, 0, 0, time.Local), MidAutumnFestival},
+		{time.Date(2026, 2, 22, 0, 0, 0, 0, time.Local), SpringFestival},
 	}
 
 	for _, arg := range args {
